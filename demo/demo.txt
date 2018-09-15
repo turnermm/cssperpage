@@ -1,0 +1,27 @@
+
+==== Styled ====
+
+~~cssp_next_openDIV~~
+hello there (18pt.)
+
+~~cssp_closeDIV~~
+==== Not Styled ====
+
+This section of the page is not styled by ''cssperpage''
+
+
+
+
+==== Styled ====
+
+~~cssp_openDIV~~
+This is a list with an image marker instead of the standard bullet:
+
+  * Apples
+  * Oranges
+  * Pears
+
+The font-size for this section of the page is set to 12pt.
+
+
+~~cssp_closeDIV~~

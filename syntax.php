@@ -37,10 +37,8 @@ class syntax_plugin_cssperpage extends DokuWiki_Syntax_Plugin {
     }
 
 
-    function handle($match, $state, $pos,  Doku_Handler $handler){
-      
-    //    if(strlen($match) > 16) {
-          
+    function handle($match, $state, $pos,  Doku_Handler $handler){      
+            
            if(preg_match("/~~cssp_(.*?)_openDIV/",$match,$matches)) {  
             $class=$matches[1];
             $match = $class . ';' . 'openDIV';

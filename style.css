@@ -1,3 +1,12 @@
-#css_per_page {
-\\font-size:16pt;
+/* user creaated class: next */
+#css_per_page.next {
+font-size:18pt;
+}
+
+/* css_per_page default class: opencss */
+#css_per_page.opencss{
+    ul {
+        list-style-image: url(images/item.gif);
+    }
+    font-size: 12pt;
 }
