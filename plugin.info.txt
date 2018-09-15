@@ -1,0 +1,7 @@
+base   cssperpage
+author Myron Turner
+email  turnermm02@shaw.ca
+date   2018-09-15
+name   cssperpage
+desc   enables per page styling
+url    https://www.dokuwiki.org/plugin:cssperpage
