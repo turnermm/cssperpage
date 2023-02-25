@@ -58,11 +58,13 @@ class syntax_plugin_cssperpage extends DokuWiki_Syntax_Plugin {
             switch ($state) {          
               case DOKU_LEXER_SPECIAL :
              
-               list($class,$rest) = explode(';',$match);
-                if($rest) {                    
+                $tokens = explode(';',$match);
+                $class = $tokens[0];
+                $rest = isset($tokens[1]) ? $tokens[1] : '';
+                if($rest) {
                     $match = 'openDIV';                  
                 }
-                 else {
+                else {
                      $class ='opencss';                  
                 }       
                 if($match == 'openDIV') {                  
